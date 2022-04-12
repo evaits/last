@@ -1,0 +1,174 @@
+body {
+	background-color: #FFC0CB;
+	font-family: monospace;
+	font-size: 19px;
+}
+
+.info {
+	display: flex;
+}
+
+.info-text {
+	margin-left: 20px;
+	background: white;
+	border-radius: 28px;
+	padding: 0 20px;
+	padding-top: px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+@media (max-width: 700px) {
+	.info {
+		display: block;
+		text-align: center;
+	}
+}
+
+@media (max-width: 700px) {
+	.info-text {
+		margin-left: 0px;
+		width: 93%;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+}
+@media (max-width: 344px) {
+	.info-text {
+		margin-left: 0px;
+		width: 88%;
+	}
+}
+
+
+
+
+#love {
+	width: 20px;
+}
+
+
+#color-text {
+	color: #2F4F4F;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;;
+}
+
+.avatar {
+	object-fit: cover;
+    width: 200px;
+    height: 200px;
+	border-radius: 30px;
+	margin-bottom: 10px;
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.55);
+}
+
+.info p {
+	font-style: italic;
+	color: #2F4F4F;
+}
+
+.roz {
+	background-color: white;
+	padding:  10px 20px;
+	margin-bottom: 10px;
+	border-radius: 25px;
+}
+
+.list1 {
+	padding: 0 20px;
+	
+}
+
+.list {
+	padding: 0 0px;
+}
+
+.list li {
+	color: #2F4F4F;
+	list-style: none;
+}
+
+.table {
+	width: 100%; 
+	
+	color: #2F4F4F;
+}
+
+.group label {
+	display: block;
+	color: #2F4F4F;
+}
+
+.group input {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid;
+	color: deeppink;
+	padding: 5px 15px 5px;
+	outline: none;
+	font-family: inherit;
+	font-size: 16px;
+	
+	background: white;
+	border-radius: 28px;
+
+
+}
+
+.group textarea {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid;
+	color: deeppink;
+	padding: 10px 15px 15px;
+	outline: none;
+	font-family: inherit;
+	font-size: 16px;
+
+	background: white;
+	border-radius: 28px;
+	margin-top: 10px;
+
+}
+
+.group1 {
+	display: flex;
+}
+
+.group1 > .group {
+	width: 50%;
+}
+
+.group1 > .group:first-child {
+	margin-right: 20px;
+}
+
+#btn {
+	background: white;
+	color: grey;
+	border: none;
+	text-align: center;
+	padding: 10px 14px;
+	border-color: pink;
+	border-radius: 20px;
+	font-family: monospace;
+	font-size: 12px;
+	border-bottom: 1px solid;
+}
+
+#btn:hover {
+    background-color: white; /* Green */
+    color: lightpink;
+}
